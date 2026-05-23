@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body {
+            display:flex;
+            flex-direction:column;
+            min-height:100vh;
+            margin:0;
+        }
+        .co {
+            flex:1;
+        }
+        .h{
+            background: #0081cc;
+            padding: 1.5rem 0;
+            position: sticky;
+            size: 0;
+        }
+        .c {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .l {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .bt {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            
+        }
+        .btn {
+            border: none;
+            background-color: transparent;
+            color:white;
+            width:100px;
+            height:50px;
+        }
+        .btn:hover {
+            background-color: white;
+            color: midnightblue;
+            opacity: 0.80;
+            border-radius: 20px;
+        }
+        .f{
+            margin-top:50px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .btn2 {
+            width:80px;
+            height:40px;
+            border:none;
+            background-color: midnightblue;
+            color:white;
+            border-radius: 40px;
+        }
+        .btn2:hover {
+            background-color: white;
+            color: midnightblue;
+        }
+    </style>
+</head>
+<body>
+    <nav class="h">
+        <div class="c">
+            <div class="l">
+                <img src="KYLO_logo_trasparent.png" style="width:100px;height:100px;">
+            </div>
+            <ul class="bt">
+                    <button class="btn">Home</button>
+                    <button class="btn">IYMUN</button>
+                    <button class="btn">MUN Materials</button>
+                    <a href="https://forms.gle/fjSY8aVJWKCJHhGq5"><button class="btn">Contact</button></a>
+            </ul>
+        </div>
+    </nav>
+    <main class="co">
+        <div style="margin-top:50px;margin-left:50px; margin-right:50px;">
+            <h1 style="text-align: center;">KYLO</h1><br>
+            <p style="text-align:center; ">
+                Korean Youth Leadership Organization(KYLO) is a high school organization established in 2025.
+                KYLO is established to introduce beginner delegates to MUN by providing an accessible 
+                and educational conference that fosters leadership and diplomacy among youth. KYLO believes
+                in the development of young leadeers through Model United Nation (MUN) participation. Recalling
+                their inital experiences in MUN, KYLO members recoginzed the challenges faced by beginner delegates,
+                who may find conferences intimidating and competitive. Thus, KYO envisions a conference aimed at beginner
+                delegates, guiding them towards effective MUN participation.</p><br>
+        </div>
+        <div style="margin-left:50px;margin-right:50pxs;margin-top:35px;">
+            <h1 style="text-align: center;">Activities</h1><br>
+            <p style="text-align: center;font-size:20px;">
+                KYLO members are currently working on organizing school MUNs and IYMUN.
+            </p>
+        </div>
+        <div style="margin-top: 40px;">
+            <img src="IYMUN logo_b.transparent.png" style="width:200px;height:200px;display:block;margin-left: auto;margin-right:auto;">
+            <h1 style="text-align: center; margin-bottom:40px;">IYMUN</h1>
+            <p style="text-align: center;">IYMUN is upcoming event that KYLO members are organizing at Seo-gu Youth Center(SYC).</p><br>
+            <p style="text-align: center;">Date: August 10 - August 12, 2026</p>
+            <p style="text-align: center;">Place : <a href="https://naver.me/xoGQ3ImR" style="text-decoration: underline;">SYC(Naver Map)</a></p>
+        </div>
+        <div style="margin-top: 40px;text-align: center;">
+            <h1>Join Us</h1>
+            <p>If you are interested in joining KYLO, please feel out the form below.</p>
+            <br><button class="btn2">Join us</button>
+        </div>
+        <div style="text-align: center;">
+            <h1 style="margin-bottom:40px; margin-top: 40px;;">Newsletter</h1>
+            <p>If you want to get information or update about the KYLO events quickly, please fill the form below.</p>
+            <br>
+            <a href="https://forms.gle/rw3E65AapxAhQGtg7"><button class="btn2">Newsletter</button></a>
+        </div>
+    </main>
+    <footer class="f">&copy; KYLO 2026. All right reserved.</footer>
+</body>
